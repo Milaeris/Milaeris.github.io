@@ -1,5 +1,9 @@
+:root {
+  --blue: rgb(75, 156, 210);
+}
+
 body {
-  font-family: "Arial", "Helvetica", sans-serif;
+  font-family: "Verdana", sans-serif;
 }
 
 img {
@@ -8,4 +12,19 @@ img {
 
 a {
   text-decoration: none;
+  color: gray;
+  margin-right: 30px;
+}
+
+hr {
+  padding: 0;
+  margin-top: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: var(--blue);
+  width: 100%;
 }
