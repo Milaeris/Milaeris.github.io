@@ -15,15 +15,6 @@ a {
   margin-right: 30px;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  border-radius: 50%;
-  color: white;
-}
-
 #about {
   padding-bottom: 20px;
 }
@@ -32,6 +23,7 @@ a {
   color: white;
   position: fixed;
   right: 30px;
+  padding-bottom: 0px;
 }
 
 footer {
@@ -42,4 +34,28 @@ footer {
   width: 100%;
   padding-top: 20px;
   color: white;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.fa {
+  padding-left: 30px;
+  padding-bottom: 0px;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+}
+
+.fa.fa-github {
+  font-size: 30px;
+}
+
+.fa.fa-linkedin {
+  font-size: 30px;
 }
