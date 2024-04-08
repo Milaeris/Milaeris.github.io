@@ -8,13 +8,30 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.header_link {
   color: gray;
   margin-right: 30px;
 }
 
-hr {
-  padding: 0;
-  margin-top: 0;
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+}
+
+#about {
+  padding-bottom: 20px;
+}
+
+#email {
+  color: white;
+  position: fixed;
+  right: 30px;
 }
 
 footer {
@@ -23,4 +40,6 @@ footer {
   left: 0;
   background-color: rgb(75, 156, 210);
   width: 100%;
+  padding-top: 20px;
+  color: white;
 }
