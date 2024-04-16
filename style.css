@@ -2,6 +2,19 @@ body {
   font-family: "Verdana", sans-serif;
 }
 
+#page_container {
+  position: relative;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+#content_wrap {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 40px;
+}
+
 img {
   width: 250px;
 }
@@ -27,9 +40,11 @@ a {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  position: absolute;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
   background-color: rgb(75, 156, 210);
   width: 100%;
   padding-top: 20px;
@@ -58,4 +73,15 @@ footer {
 
 .fa.fa-linkedin {
   font-size: 30px;
+}
+
+.tag {
+  height: 30px;
+  width: 70px;
+  background-color: rgb(75, 156, 210);
+  border-radius: 25px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  display: inline-block;
 }
