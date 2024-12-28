@@ -23,6 +23,38 @@ a {
   text-decoration: none;
 }
 
+.project-desc-container {
+  margin-top: 10px;
+  max-width: 90%;
+  bottom: 0;
+  text-align: justify;
+  display: inline-block;
+}
+
+.project-container {
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.group-title {
+  font-size: 25px;
+  background-color: rgb(75, 156, 210);
+  text-align: center;
+  padding: 10px;
+  align-self: center;
+}
+
 .header_link {
   color: gray;
   margin-right: 30px;
@@ -77,7 +109,8 @@ footer {
 
 .tag {
   height: 30px;
-  width: 70px;
+  width: 75px;
+  font-size: 12px;
   background-color: rgb(75, 156, 210);
   border-radius: 25px;
   text-align: center;
