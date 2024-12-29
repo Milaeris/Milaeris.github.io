@@ -1,3 +1,7 @@
+:root {
+  --mainblue: rgb(75, 156, 210);
+}
+
 body {
   font-family: "Verdana", sans-serif;
 }
@@ -19,18 +23,29 @@ img {
   width: 200px;
 }
 
-img .zoom {
+img.zoom {
   width: 400px;
 }
 
-img #portrait {
+#portrait {
   width: 200px;
+  margin-top: 20px;
 }
 
-img .logo {
-  width: 100px;
+img.logo {
+  width: 70px;
   margin-right: 10px;
   display: inline-block;
+}
+
+img.main-img {
+  width: 700px;
+}
+
+img.content-img {
+  width: 700px;
+  display: inline-block;
+  margin: auto;
 }
 
 .zoom:hover {
@@ -67,17 +82,42 @@ a {
 
 .group-title {
   font-size: 25px;
-  background-color: rgb(75, 156, 210);
+  background-color: var(--mainblue);
   text-align: center;
   padding: 20px;
   align-self: center;
   font-weight: bold;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .header_link {
   color: gray;
   margin-right: 30px;
+}
+
+.contributions {
+  background-color: var(--mainblue);
+  padding: 10px;
+  color: white;
+  margin: 10px;
+}
+
+.game-desc {
+  margin: 20px;
+}
+
+.game-content {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 #about {
@@ -96,8 +136,9 @@ footer {
   display: block;
   float: left;
   margin: 0;
+  margin-top: 10px;
   padding: 0;
-  background-color: rgb(75, 156, 210);
+  background-color: var(--mainblue);
   width: 100%;
   padding-top: 20px;
   color: white;
@@ -131,7 +172,7 @@ footer {
   height: 30px;
   width: 75px;
   font-size: 12px;
-  background-color: rgb(75, 156, 210);
+  background-color: var(--mainblue);
   border-radius: 25px;
   margin-bottom: 10px;
   text-align: center;
