@@ -15,12 +15,18 @@ body {
   padding-bottom: 40px;
 }
 
-img {
-  width: 350px;
+img .zoom {
+  width: 400;
 }
 
 img #portrait {
-  width: 250px;
+  width: 200px;
+}
+
+img .logo {
+  width: 100px;
+  margin-right: 10px;
+  display: inline-block;
 }
 
 .zoom:hover {
@@ -62,6 +68,7 @@ a {
   padding: 20px;
   align-self: center;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .header_link {
