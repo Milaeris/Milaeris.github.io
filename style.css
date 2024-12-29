@@ -16,11 +16,21 @@ body {
 }
 
 img {
+  width: 350px;
+}
+
+img #portrait {
   width: 250px;
 }
 
 a {
   text-decoration: none;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .project-desc-container {
@@ -32,7 +42,7 @@ a {
 }
 
 .project-container {
-  max-width: 340px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -41,18 +51,13 @@ a {
   overflow: hidden;
 }
 
-.projects {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 .group-title {
   font-size: 25px;
   background-color: rgb(75, 156, 210);
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   align-self: center;
+  font-weight: bold;
 }
 
 .header_link {
@@ -113,6 +118,7 @@ footer {
   font-size: 12px;
   background-color: rgb(75, 156, 210);
   border-radius: 25px;
+  margin-bottom: 10px;
   text-align: center;
   vertical-align: middle;
   line-height: 30px;
