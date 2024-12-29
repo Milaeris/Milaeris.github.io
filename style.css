@@ -15,8 +15,12 @@ body {
   padding-bottom: 40px;
 }
 
+img {
+  width: 200px;
+}
+
 img .zoom {
-  width: 400;
+  width: 400px;
 }
 
 img #portrait {
