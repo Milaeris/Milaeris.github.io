@@ -9,7 +9,7 @@ body {
 #page_container {
   position: relative;
   min-height: 100vh;
-  margin: 0px;
+  margin: 10px;
   padding: 0px;
 }
 
@@ -43,7 +43,7 @@ img.main-img {
 }
 
 img.content-img {
-  width: 700px;
+  width: 43%;
   display: inline-block;
   margin: auto;
 }
@@ -89,6 +89,7 @@ a {
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: white;
 }
 
 .header_link {
@@ -101,10 +102,13 @@ a {
   padding: 10px;
   color: white;
   margin: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .game-desc {
   margin: 20px;
+  margin-top: 0px;
 }
 
 .game-content {
@@ -120,8 +124,13 @@ a {
   margin-top: 40px;
 }
 
-#about {
+#about-me {
   padding-bottom: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--mainblue);
+  color: white;
 }
 
 #email {
@@ -135,9 +144,9 @@ footer {
   position: absolute;
   display: block;
   float: left;
-  margin: 0;
+  margin: -20px;
   margin-top: 10px;
-  padding: 0;
+  padding: -10px;
   background-color: var(--mainblue);
   width: 100%;
   padding-top: 20px;
@@ -179,4 +188,5 @@ footer {
   vertical-align: middle;
   line-height: 30px;
   display: inline-block;
+  color: white;
 }
