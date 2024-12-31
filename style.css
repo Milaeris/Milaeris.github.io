@@ -4,13 +4,13 @@
 
 body {
   font-family: "Verdana", sans-serif;
+  margin: 0;
 }
 
 #page_container {
   position: relative;
   min-height: 100vh;
   margin: 10px;
-  padding: 0px;
 }
 
 #content_wrap {
@@ -21,6 +21,7 @@ body {
 
 img {
   width: 200px;
+  border-radius: 7%;
 }
 
 img.zoom {
@@ -60,6 +61,8 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .project-desc-container {
@@ -143,10 +146,9 @@ a {
 footer {
   position: absolute;
   display: block;
+  box-sizing: border-box;
   float: left;
-  margin: -20px;
   margin-top: 10px;
-  padding: -10px;
   background-color: var(--mainblue);
   width: 100%;
   padding-top: 20px;
@@ -180,10 +182,10 @@ footer {
 .tag {
   height: 30px;
   width: 75px;
-  font-size: 12px;
+  font-size: 11px;
   background-color: var(--mainblue);
   border-radius: 25px;
-  margin-bottom: 10px;
+  margin-top: 10px;
   text-align: center;
   vertical-align: middle;
   line-height: 30px;
