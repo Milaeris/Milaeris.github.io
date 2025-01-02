@@ -1,9 +1,10 @@
 :root {
   --mainblue: rgb(75, 156, 210);
+  --secondary: rgb(62, 153, 131);
 }
 
 body {
-  font-family: "Verdana", sans-serif;
+  font-family: "ui", sans-serif;
   margin: 0;
 }
 
@@ -21,7 +22,7 @@ body {
 
 img {
   width: 200px;
-  border-radius: 7%;
+  border-radius: 15px;
 }
 
 img.zoom {
@@ -31,6 +32,7 @@ img.zoom {
 #portrait {
   width: 200px;
   margin-top: 20px;
+  margin-right: 20px;
 }
 
 img.logo {
@@ -75,24 +77,35 @@ a {
 
 .project-container {
   max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: left;
   overflow: hidden;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.group-title-inner {
+  font-size: 25px;
+  text-align: center;
+  align-self: center;
+  font-weight: bold;
+  padding: 20px;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+  color: white;
 }
 
 .group-title {
   font-size: 25px;
-  background-color: var(--mainblue);
   text-align: center;
-  padding: 20px;
   align-self: center;
   font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 20px;
+  margin-top: 50px;
   color: white;
+  background-color: var(--mainblue);
+  border-radius: 15px;
 }
 
 .header_link {
@@ -127,13 +140,22 @@ a {
   margin-top: 40px;
 }
 
-#about-me {
+#about-container {
   padding-bottom: 20px;
   padding-left: 20px;
+  padding-right: 40px;
+  background-color: var(--mainblue);
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+#about-content {
   display: flex;
   flex-direction: row;
-  background-color: var(--mainblue);
   color: white;
+  padding-bottom: 10px;
 }
 
 #email {
@@ -148,7 +170,7 @@ footer {
   display: block;
   box-sizing: border-box;
   float: left;
-  margin-top: 10px;
+  margin-top: 80px;
   background-color: var(--mainblue);
   width: 100%;
   padding-top: 20px;
