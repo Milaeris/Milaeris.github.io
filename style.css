@@ -120,6 +120,7 @@ a {
   margin: 10px;
   margin-left: 40px;
   margin-right: 40px;
+  border-radius: 15px;
 }
 
 .game-desc {
@@ -136,6 +137,7 @@ a {
 .images-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-bottom: 40px;
   margin-top: 40px;
 }
