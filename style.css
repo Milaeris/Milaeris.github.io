@@ -49,6 +49,7 @@ img.content-img {
   width: 43%;
   display: inline-block;
   margin: auto;
+  margin-top: 10px;
 }
 
 .zoom:hover {
@@ -115,7 +116,7 @@ a {
 
 .contributions {
   background-color: var(--mainblue);
-  padding: 10px;
+  padding: 20px;
   color: white;
   margin: 10px;
   margin-left: 40px;
