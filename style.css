@@ -45,6 +45,14 @@ img.main-img {
   width: 700px;
 }
 
+img.tall-img {
+  max-height: 500px;
+  width: auto;
+  display: inline-block;
+  margin: auto;
+  margin-top: 10px;
+}
+
 img.content-img {
   width: 43%;
   display: inline-block;
