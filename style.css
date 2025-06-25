@@ -62,6 +62,11 @@ img.content-img {
   margin-top: 10px;
 }
 
+img.art {
+	width: 40%;
+	margin: 3%;
+}
+
 #header {
   width: 100%;
 }
