@@ -21,13 +21,19 @@ body {
 }
 
 img {
-  width: 200px;
+  /* width: 200px; */
   border-radius: 15px;
 }
 
 img.zoom {
-  width: 400px;
+  width: 27vw;
+  min-width: 400px;
 }
+
+h5 {
+  margin-top: -10px;
+}
+
 
 #portrait {
   margin-top: 20px;
@@ -90,6 +96,7 @@ a {
   flex-wrap: wrap;
   padding-left: 40px;
   padding-right: 40px;
+  
 }
 
 .project-desc-container {
@@ -101,9 +108,8 @@ a {
 }
 
 .project-container {
-  max-width: 400px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  max-width: 27vw;
+  min-width: 400px;
   text-align: left;
   overflow: hidden;
   margin-right: 30px;
@@ -128,6 +134,7 @@ a {
   font-weight: bold;
   padding: 20px;
   margin-top: 50px;
+  margin-bottom: 50px;
   color: white;
   background-color: var(--mainblue);
   border-radius: 15px;
