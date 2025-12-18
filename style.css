@@ -332,4 +332,17 @@ footer {
     padding-right: 12px;
     gap: 12px;
   }
+
+  /* stack portrait above the about text on small screens */
+  #about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  #portrait {
+    margin-right: 0;
+    margin-bottom: 14px;
+  }
+  #about-content > div {
+    width: 100%;
+  }
 }
